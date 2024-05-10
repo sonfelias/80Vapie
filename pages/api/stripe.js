@@ -1,7 +1,7 @@
 import Stripe from 'stripe';
 
 //const stripe = new Stripe(process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY);
-const stripe = new Stripe('sk_test_51KwRgRKlHZexqoIJPrJZI6sdtCXJnxjmuYofMXwf4fPYZrHBHkJZg67qR9XhDJ6vBx5kC3iCbSuV9tBbQuGTW6ft00nrag3cgS');
+const stripe = new Stripe('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');
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
